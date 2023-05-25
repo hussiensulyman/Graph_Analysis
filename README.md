@@ -1,4 +1,3 @@
-# Graph_Analysis
 
 # Network/Graph Analysis of Citation Networks for Egyptian Authors
 
