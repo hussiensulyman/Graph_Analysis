@@ -1,47 +1,49 @@
 # Graph_Analysis
 
-# Introduction
+# Network/Graph Analysis of Citation Networks for Egyptian Authors
 
-This is a placeholder for python scripts that are meant to automate pipelines of operations. 
-Currently it (only) includes:
+## Abstract
+[Provide a concise summary of the paper's objectives, methods, key findings, and implications.]
 
-1. `doPandoc` - utility to process Scrivener-based mmd documents into any output format that is supported by pandoc. Is building heavily on LaTeX sources, but that is not required; you can direct Scrivener to compile to docx as well.
+## Introduction
+[Give an overview of the importance of citation networks and their analysis in understanding scholarly communication and knowledge dissemination. Explain the significance of studying Egyptian authors in this context. State the objectives of your analysis.]
 
+## Data Collection
+[Describe the methodology and process used to collect the citation data. Specify the sources, databases, and any specific criteria used for selecting Egyptian authors and their publications. Include details about the dataset size, sample selection, and any limitations or biases.]
 
+## Network Analysis
+### Degree Distribution Analysis
+[Present the degree distribution analysis of the citation network, specifically focusing on Egyptian authors. Plot a histogram or a bar chart showing the distribution of degrees. Interpret the results and discuss any observed patterns.]
 
-## doPandoc
-Pandoc is a very convenient text format transformation tool that can mediate between several in- and output formats for your documents. Refer to http://pandoc.org/ for its ever growing details. 
-Git is a very convenient version control system, that can be effectively used for documents as well, especially when you develop multiple parts of it in parallel and have it reviewed in parallel as well (branching and merging).
-Both tools have complicated command line options; doPandoc combines them and provide for several document scenarios with a relative simple command line environment. 
+### Path Analysis
+[Describe the path analysis conducted on the citation network. Identify the shortest paths between authors and quantify the average path length. Discuss any insights gained from the path analysis, such as the efficiency of knowledge flow or potential bottlenecks.]
 
-Since pdf's are used often as a vehicle for you texts, it can be helpful to provide your proof readers with the delta view relative to the previous version of the document. One can use https://draftable.com/compare for that.
+### Centrality Analysis
+[Perform centrality analysis to identify the most central authors in the network. Calculate metrics such as degree centrality, betweenness centrality, and eigenvector centrality. Present your findings and discuss the implications of highly central authors in the Egyptian citation network.]
 
-### Installation
-This is a python script, hence provide for a python-3 environment to run this in a shell. Furthermore, it optionally supports git, hence make sure git is installed if you want to use it.
+### Connected Components Analysis
+[Analyze the connected components in the citation network. Identify the size and number of connected components. Discuss the presence of any isolated components or sub-networks within the larger network.]
 
-### Features
-A combination of (i) processing your multimarkdown through pandoc to an output of choice; (ii) using git for version control; (iii) using git for branch control. (iii) implies (ii). 
+### Clustering Coefficients
+[Compute clustering coefficients for nodes in the network. Explain the concept of clustering coefficients and how they indicate the presence of clusters or communities within the network. Interpret the clustering coefficient results.]
 
-### Operation
-Operate this script from a shell:
+### Density Analysis
+[Calculate the density of the citation network and explain its significance. Discuss how the density relates to the interconnectedness of Egyptian authors and the overall structure of the network.]
 
-1. Open a shell, `cd` to the folder that contains your Scrivener project (i.e., contains your `myProject.scriv` folder) and run\\
-1. `python doPandoc.py` \\
-or make your windows environment to understand the `.py` extension and run\\
-1. `doPandoc`
+### Network Type
+[Determine the type of network exhibited by the citation network (e.g., small-world, scale-free, random). Explain the characteristics of the identified network type and discuss their implications for scholarly communication among Egyptian authors.]
 
-Without any arguments, this command will return a default `usage: ...` instruction. For more information, run `doPandoc -h`.
+## Community Discovery
+[Apply community detection algorithms (e.g., modularity optimization, Louvain method) to identify communities or clusters within the citation network. Present the discovered communities and analyze their composition, overlap, and potential research themes.]
 
-Using this script requires a specific structure of the source folders:
+## Dynamic Community Discovery
+[If applicable, discuss the temporal aspects of the citation network and perform dynamic community discovery. Analyze how communities evolve over time and identify any emerging trends or shifts in research collaboration among Egyptian authors.]
 
-* `templates` contains all the templates that your project can make use of for its visual appearance;
-    * Place your document template here; either for latex (<myTemplate>.tex) or Word (<myTemplate>.docx). As opposed to the former, in case of a Word template, only the formatting of the document is used, not its contents.
-	* Place your bibliography style sheet here (<myCSL>.csl). This is for LaTeX oriented use only.
-    * The `templates/tex/latex` directory is where LaTeX support files go (see Fletcher Penney's [peg-multimarkdown-latex-support] (https://github.com/fletcher/peg-multimarkdown-latex-support) project for a superset of what's bundled).
-* `src` contains all files that are to be included in your resulting report:
-    * `bib` can be used to store your bibliography if you maintain an external one. This is LaTeX oriented, hence consider a `.bib` file.
-    * `docs` will contain all the `mmd` (or other) documents that are compiled by Scrivener. Note that these will be generated by Scrivener - there is no reason for you to hassle around with files in this directory. You can, however, compile different parts of your Scrivener project into distinct source documents;
-        * The `preamble.mmd` file contains metadata for LaTeX.
-        * The `user.mmd` file, should you provide it, contains additional metadata for your purposes.
-    * `images` should contain all your images that you want to include in your end result. In contradiction to the `docs` folder, here you need to actively copy your images to.
-* `results` contains the result of the production process, if you have one. Since I am using `pandoc` to take care of the actual production process, it would compile its results (mostly `.pdf` files) here; again, this is a location where results are generated into, and, hence, there is no need for you to hassle around with files in this folder;
+## Conclusion
+[Summarize the main findings of your network/graph analysis on the citation network for Egyptian authors. Discuss the implications of your results for scholarly communication and research collaboration in Egypt. Highlight any limitations of the study and suggest avenues for future research.]
+
+## Acknowledgments
+[Express gratitude to individuals, institutions, or funding agencies that supported your research.]
+
+## References
+[Cite all the references and resources used in your analysis and paper.]
