@@ -45,21 +45,16 @@ Once the data is cleaned, you need to organize it into a format that is suitable
 
 ### Data Analysis:
 First: Graph
-
 It’s a type of data analysis that focuses on studying the relationships between entities. It involves using mathematical and statistical methods to analyze the structure and properties of graphs or networks, where nodes represent entities and edges represent relationships between them. Our Nodes were authors and referenced authors, and edges represented co-authorship. We used the graph.degree function in networkx.
 
 Second: Degree Distribution
-
 Degree distribution analysis is a method of graph analysis that focuses on studying the distribution of node degrees in a network. Node degree is defined as the number of edges connected to a node in the network. Degree distribution analysis involves calculating the frequency of nodes with each possible degree and visualizing the resulting distribution.
 
 Third: Connected Component Analysis
-
 Connected component analysis is a method used in network analysis to understand the structure and connectivity of a network by identifying its connected components. It is a subset of nodes in a network where each node is connected to at least one other node in the same subset. In other words, all nodes in a connected component can be reached from any other node in the same component by following a path of connected nodes. By analyzing the connected components of a network, we can gain insights into its overall structure and organization. For example, a network with many small connected components and a few large ones might indicate a hierarchical or modular organization. On the other hand, a network with a single large connected component might indicate a highly connected and cohesive network.
 
 Fourth: Clustering
-
 In network analysis, clustering refers to the identification of groups of nodes that are densely connected to each other within a network. These groups are often referred to as clusters or communities. Clustering is a useful concept because it allows us to identify substructures within a network that have similar properties or functions. We used modularity-based methods: This approach involves optimizing a quality function called modularity that measures the strength of the division of the network into communities. Modularity-based algorithms aim to maximize the modularity.
-
 
 
 ## III.	WRITE DOWN YOUR STUDIES AND FINDINGS
