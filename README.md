@@ -27,11 +27,21 @@ Overall, the problem of Top-Ten Universities Authors Network Analysis is an impo
 
 ## II.	IDENTIFY, RESEARCH AND COLLECT IDEA
 ### Steps of collecting data (our data set):
-1.	Define the research question: Before creating the dataset, you should define the research question or objective that the dataset will address. For example, you may want to analyze the co-authorship patterns and citation networks of researchers from the top ten universities in a particular field.  
-2.	Determine the data sources: Once you have defined the research question, you need to identify the sources of data that will provide the information you need. These sources may include academic databases such as Web of Science or Scopus, as well as university websites or departmental pages.  
-3.	Collect the data: Depending on the sources of data, you may need to collect data on the publications and authors affiliated with the top ten universities in the field. This may involve conducting searches using specific keywords or subject areas, and filtering the results to identify the top publications and authors.  
-4.	Clean the data: After collecting the data, you need to clean it by removing any errors, inconsistencies, or missing values. This may involve checking for duplicates, ensuring that the data is in the correct format, and dealing with missing data.  
-5.	Organize the data: Once the data is cleaned, you need to organize it into a format that is suitable for analysis. This may involve structuring the data into tables or spreadsheets, and assigning labels or codes to the data.  
+1. Define the research question:
+Before creating the dataset, you should define the research question or objective that the dataset will address. For example, you may want to analyze the co-authorship patterns and citation networks of researchers from the top ten universities in a particular field.
+
+2. Determine the data sources:
+Once you have defined the research question, you need to identify the sources of data that will provide the information you need. These sources may include academic databases such as Web of Science or Scopus, as well as university websites or departmental pages.
+
+3. Collect the data:
+Depending on the sources of data, you may need to collect data on the publications and authors affiliated with the top ten universities in the field. This may involve conducting searches using specific keywords or subject areas, and filtering the results to identify the top publications and authors.
+
+4. Clean the data:
+After collecting the data, you need to clean it by removing any errors, inconsistencies, or missing values. This may involve checking for duplicates, ensuring that the data is in the correct format, and dealing with missing data.
+
+5. Organize the data:
+Once the data is cleaned, you need to organize it into a format that is suitable for analysis. This may involve structuring the data into tables or spreadsheets, and assigning labels or codes to the data.
+
 
 ### Data Analysis:
 #### First: Graph
