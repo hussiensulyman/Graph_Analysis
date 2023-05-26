@@ -3,6 +3,8 @@
 
 ## Abstract
 [Provide a concise summary of the paper's objectives, methods, key findings, and implications.]
+[The Data we use]([URL](https://drive.google.com/drive/folders/12OIR9NY02QQmRzZ2XjhTCjGh-IfbEGAD?usp=share_link))
+
 
 ## Introduction
 [Give an overview of the importance of citation networks and their analysis in understanding scholarly communication and knowledge dissemination. Explain the significance of studying Egyptian authors in this context. State the objectives of your analysis.]
