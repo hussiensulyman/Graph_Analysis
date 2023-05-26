@@ -61,18 +61,20 @@ In network analysis, clustering refers to the identification of groups of nodes 
 Our results were that:
 •	we could identify the key author (the most central and influential authors in the network) based on measures such as degree centrality, betweenness centrality, and eigenvector centrality. He was daniela bortoletto as he had the highest degree which is 1750.
 
-![Degree Rank Plot](Picture1.png)  
+<p align="center">
+  <img src="Picture1.png" alt="Degree Rank Plot">
+</p>
 
 •	Identification of research clusters: Network analysis could identify groups or clusters of authors who are more tightly connected to each other than to the rest of the network. These clusters may represent research subfields or areas of specialization within the network.
 
-![represent research subfields or areas of specialization within the network.](Picture2.png)  
+<p align="center">
+  <img src="Picture2.png" alt="Represent Research Subfields">
+</p>
 
 
 ## IV.	CONCLUSION
 Overall, the results of a network analysis of top ten universities authors could have important implications for research, policy, and decision-making in the field. By understanding the structure and properties of the network, researchers and practitioners can identify areas of collaboration, innovation, and potential disruption, and use this information to inform their work and future research directions.  
 
-### Connected Components Analysis
-Analyze the connected components in the citation network. Identify the size and number of connected components. Discuss the presence of any isolated components or sub-networks within the larger network.  
 
 ## REFERENCES
 [1]	G. O. Young, “Synthetic structure of industrial plastics (Book style with paper title and editor),” 	in Plastics, 2nd ed. vol. 3, J. Peters, Ed.  New York: McGraw-Hill, 1964, pp. 15–64.
