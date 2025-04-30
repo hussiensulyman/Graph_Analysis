@@ -1,9 +1,10 @@
 
 # Top Ten universities authors Network Analysis
 ### By students: (Group: ALG-S2023-12)
-Omnia Nabil Gharieb	120200156  
-Hanin Mohamed Saleh	120190074  
-Hussein Ahmed Hussein	120200261  
+Hussein Ahmed Hussein
+Omnia Nabil Gharieb	  
+Hanin Mohamed Saleh	  
+
 ### with Prof. Walid Gomaa
 
 ## Abstract
